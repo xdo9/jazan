@@ -1,0 +1,123 @@
+/* تنسيق عام للجسم */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #f4f4f4;
+    background-color: #333; /* اللون الرمادي الغامق */
+}
+
+/* تنسيق رأس الصفحة */
+header {
+    background-color: #444; /* اللون الرمادي الغامق */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header .logo {
+    width: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* تنسيق قائمة التنقل */
+nav ul {
+    list-style: none;
+    background: #555; /* اللون الرمادي */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* تنسيق المحتوى الرئيسي */
+main {
+    padding: 20px;
+}
+
+main h2, main h3 {
+    color: #ddd; /* اللون الرمادي الفاتح */
+}
+
+main p {
+    color: #ccc; /* اللون الرمادي الفاتح */
+}
+
+/* تنسيق قسم الصور في الـ Gallery */
+.gallery {
+    display: flex; /* استخدام Flexbox لعرض الصور جنب بعض */
+    gap: 20px; /* المسافة بين الصور */
+    justify-content: center; /* محاذاة الصور في المنتصف */
+    flex-wrap: wrap; /* تسمح للصور بالانتقال إلى سطر جديد إذا لم تتسع المساحة */
+}
+
+/* تنسيق كل صورة في الـ Gallery */
+.gallery-item {
+    flex: 1; /* تجعل كل صورة تشغل مساحة متساوية */
+    max-width: 300px; /* الحد الأقصى للعرض لكل صورة */
+    text-align: center;
+}
+
+/* لضبط حجم الصورة */
+.gallery-item img {
+    width: 100%; /* اجعل الصورة تأخذ عرض العنصر بالكامل */
+    height: auto; /* حافظ على النسبة الأصلية للعرض والارتفاع */
+    border-radius: 8px; /* جعل الصورة زواياها مستديرة */
+}
+
+/* تنسيق الصورة في صفحة "About" */
+.university-img {
+    width: 100%;
+    max-width: 600px;  /* الحد الأقصى لعرض الصورة */
+    margin: 20px auto;
+    display: block;
+}
+
+/* تنسيق قسم القائمة */
+ul {
+    color: #ccc;
+}
+
+/* تنسيق الفوتر */
+footer {
+    background: #222; /* اللون الرمادي الغامق جدًا */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* تنسيق الجداول */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #444; /* اللون الرمادي الغامق */
+}
+
+table th, table td {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background: #666; /* اللون الرمادي المتوسط */
+    color: white;
+}
+
+.contact-details {
+    margin-top: 20px;
+    color: #ccc;
+}
